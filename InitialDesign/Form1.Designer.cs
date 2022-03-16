@@ -522,7 +522,7 @@
             this.AddFundsForm.Controls.Add(this.label10);
             this.AddFundsForm.Controls.Add(this.AmoutToAdd);
             this.AddFundsForm.Controls.Add(this.label9);
-            this.AddFundsForm.Location = new System.Drawing.Point(825, 372);
+            this.AddFundsForm.Location = new System.Drawing.Point(1, 107);
             this.AddFundsForm.Name = "AddFundsForm";
             this.AddFundsForm.Size = new System.Drawing.Size(406, 260);
             this.AddFundsForm.TabIndex = 12;
@@ -696,7 +696,7 @@
             this.WithdrawFundsForm.Controls.Add(this.label19);
             this.WithdrawFundsForm.Controls.Add(this.AmountToWithdraw);
             this.WithdrawFundsForm.Controls.Add(this.label20);
-            this.WithdrawFundsForm.Location = new System.Drawing.Point(413, 370);
+            this.WithdrawFundsForm.Location = new System.Drawing.Point(1, 107);
             this.WithdrawFundsForm.Name = "WithdrawFundsForm";
             this.WithdrawFundsForm.Size = new System.Drawing.Size(406, 260);
             this.WithdrawFundsForm.TabIndex = 16;
@@ -831,7 +831,7 @@
             this.PayPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.PayPanel.Controls.Add(this.label39);
             this.PayPanel.Controls.Add(this.pictureBox1);
-            this.PayPanel.Location = new System.Drawing.Point(825, 1);
+            this.PayPanel.Location = new System.Drawing.Point(1, 1);
             this.PayPanel.Name = "PayPanel";
             this.PayPanel.Size = new System.Drawing.Size(406, 363);
             this.PayPanel.TabIndex = 17;
@@ -879,7 +879,7 @@
             this.SettingsPannel.Controls.Add(this.MonthlyIncome);
             this.SettingsPannel.Controls.Add(this.label22);
             this.SettingsPannel.Controls.Add(this.label21);
-            this.SettingsPannel.Location = new System.Drawing.Point(413, 1);
+            this.SettingsPannel.Location = new System.Drawing.Point(1, 1);
             this.SettingsPannel.Name = "SettingsPannel";
             this.SettingsPannel.Size = new System.Drawing.Size(406, 363);
             this.SettingsPannel.TabIndex = 18;
@@ -1053,7 +1053,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1237, 634);
+            this.ClientSize = new System.Drawing.Size(409, 427);
             this.Controls.Add(this.HomePanel);
             this.Controls.Add(this.SettingsPannel);
             this.Controls.Add(this.PayPanel);

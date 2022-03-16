@@ -86,8 +86,16 @@ namespace InitialDesign
             int AmountB = int.Parse(StudentFinanceIncome.Text);
             int AmountC = int.Parse(MonthlyExpenses.Text);
             int AmountD = int.Parse(CurrentBalance.Text);
-            int DailySpend = (((AmountB / 3) + AmountA + AmountD) - AmountC) / 30;
-            DailyBalance.Text = DailySpend.ToString();
+            int Total = (((AmountB / 3) + AmountA + AmountD) - AmountC) / 30;
+            if (Total < 0) 
+            {
+                MessageBox.Show("Error: It seems like you dont have the funds to sustain your bills");
+            }
+            else
+            {
+                DailyBalance.Text = Total.ToString();
+            }
+
         }
 
         // Adding Funds to wallet
