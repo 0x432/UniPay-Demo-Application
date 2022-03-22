@@ -15,3 +15,5 @@
 - Upcoming Payments
 - Daily Spending
 - Budgeting Tips change daily
+
+*This application is for demostration purposes only, the application is not connected to any payment gateways and cannot be used to pay, recieve or withdraw funds.*
