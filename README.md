@@ -1,4 +1,4 @@
-## UniPay Demo Application, University Of Huddersfield
+## UniPay Demo Application
 *By Caleb, Raul, Annum, Nathan, Sam*
 
 ### features
